@@ -1,0 +1,23 @@
+.modal {
+  color: gray;
+  cursor: pointer;
+  position: relative;
+}
+
+.modal__container {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.modal__content {
+  background-color: var(--twitter-background);
+  border: 1px solid gray;
+  padding: 4px 8px;
+  font-size: 14px;
+  overflow: visible;
+  position: absolute;
+  top: 22px;
+  right: 2px;
+  cursor: pointer;
+}
